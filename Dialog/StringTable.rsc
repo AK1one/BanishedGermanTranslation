@@ -312,7 +312,7 @@ StringTable gameDialogs
 		{ String _name = "CloseTip";			String _text = "Schließt dieses Fenster"; }
 		{ String _name = "PinTip";				String _text = "Dieses Fenster anpinnen, damit es offen bleibt und das Ausgewählte nicht verfolgt wird."; }
 		{ String _name = "CenterTip";			String _text = "Zentriert die Sicht der Auswahl."; }
-		{ String _name = "ProductionTip";		String _text = "Zeigt oder versteckt die Statistik über die Produktion an dieser Stelle."; }
+		{ String _name = "ProductionTip";		String _text = "Zeigt oder versteckt die Statistik über die Produktion von diesem Gebäude."; }
 
 		{ String _name = "ClearAreaTip";		String _text = "Bäume, Felsen, und andere Hindernisse müssen in diesem Gebiet entfernt werden."; }
 		{ String _name = "ResourceTip";			String _text = "Es müssen erst noch die richtigen Resourcen gesammelt werden, bevor mit dem Bau begonnen werden kann."; }
@@ -363,7 +363,7 @@ StringTable gameDialogs
 		
 		{ String _name = "CropFieldCutTip";		String _text = "Dieses Feld sofort abernten."; }
 		{ String _name = "CropFieldAutoTip";	String _text = "Das automatische Pflanzen und Ernten an diesem Ort ein- oder ausschalten."; }
-		{ String _name = "CropFieldSelectTip";	String _text = "Wählt die an diesem Ort zu pflanzenden Frucht aus."; }
+		{ String _name = "CropFieldSelectTip";	String _text = "Wähle die an diesem Ort zu pflanzenden Saat aus."; }
 
 		{ String _name = "CropFieldPlant";		String _text = "Sähen"; }
 		{ String _name = "CropFieldHarvest";	String _text = "Ernten"; }
@@ -457,7 +457,7 @@ StringTable gameDialogs
 		{ String _name = "TradeCost";			String _text = "Preis"; }
 		{ String _name = "TradeValue";			String _text = "Wert"; }
 
-		{ String _name = "WeatherTip";			String _text = "Aktuelle Wetter und Temperatur."; }
+		{ String _name = "WeatherTip";			String _text = "Aktuelles Wetter und Temperatur."; }
 		{ String _name = "PopulationTip";		String _text = "Anzahl der Erwachsenen / Studenten / Kinder."; }
 		{ String _name = "WoodTip";				String _text = "Anzahl der gelagerten Holzstämme."; }
 		{ String _name = "StoneTip";			String _text = "Anzahl der gelagerten Steine."; }
@@ -543,8 +543,8 @@ StringTable gameDialogs
 		{ String _name = "BuildingStatusNoWorkersTip";	String _text = "Es sind keine Einwohner verfügbar um an diesem Gebäude zu arbeiten."; }
 		{ String _name = "BuildingStatusDestroyTip";	String _text = "Dieses Gebäude wird entfernt."; }
 
-		{ String _name = "ThisYear";			String _text = "Aktuelle Jahreszeit"; }
-		{ String _name = "PrevYear";			String _text = "Vorheriege Jahreszeit"; }
+		{ String _name = "ThisYear";			String _text = "Aktuelle Saison"; }
+		{ String _name = "PrevYear";			String _text = "Vorheriege Saison"; }
 
 		{ String _name = "EventNotifyDeathOldTip";		String _text = "Toggle popup notifications of death by old age."; }
 		{ String _name = "EventNotifyDeathTip";			String _text = "Toggle popup notifications of death."; }
@@ -1208,11 +1208,11 @@ StringTable objects
 
 		{ String _name = "CropField";			String _text = "Acker"; }
 		{ String _name = "CropFieldLwr";		String _text = "Der Acker"; }
-		{ String _name = "CropFieldTip";		String _text = "Bestimmt ein Gebiet, in dem Farmer Nutzpflanzen anbauen können."; }	
+		{ String _name = "CropFieldTip";		String _text = "Bestimmt ein Gebiet, auf dem Farmer Nutzpflanzen anbauen können."; }	
 
-		{ String _name = "Orchard";				String _text = "Obstplantage"; }
-		{ String _name = "OrchardLwr";			String _text = "Die Obstplantage"; }
-		{ String _name = "OrchardTip";			String _text = "Bestimmt ein Gebiet, in dem Farmer Obstbäume anpflanzen können."; }	
+		{ String _name = "Orchard";				String _text = "Plantage"; }
+		{ String _name = "OrchardLwr";			String _text = "Die Plantage"; }
+		{ String _name = "OrchardTip";			String _text = "Bestimmt ein Gebiet, in der Farmer eine Plantage errichten können."; }	
 
 		{ String _name = "StorageYard";			String _text = "Lagerstätte"; }
 		{ String _name = "StorageYardLwr";		String _text = "Die Lagerstätte"; }

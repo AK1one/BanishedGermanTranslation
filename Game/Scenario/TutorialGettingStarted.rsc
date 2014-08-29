@@ -101,7 +101,7 @@ StringTable tutorialStrings
 		{ String _name = "Step_Help_1_Pre";			String _text = "Wähle dann das 'Hilfe und Referenz' Werkzeug aus, durch drücken von"; } 
 
 		{ String _name = "Step_End_0_Pre";			String _text = "Mit ein wenig Übung und ein bisschen Glück, wird eine kleine Stadt viele paar Jahre überstehen.~n~nKinder werden größer und werden zu Arbeitern, bekommen ihre eigenen Kinder, neue Häuser werden gebaut, und die Stadt wird weiter expandieren."; } 
-		{ String _name = "Step_End_1_Pre";			String _text = "Du kannst einige der Hilfsthemen und Referenzen lesen, oder drücke auf 'Weiter' um das nächste Tutorial zu starten. Dieses behandelt die Schwerpunkte Resourcenproduktion und Überleben.~n~nDrücke 'Spiel verlassen' um zum Hauptmenü zurückzukehren."; } 
+		{ String _name = "Step_End_1_Pre";			String _text = "Du kannst einige der Hilfsthemen und Referenzen lesen, oder drücke auf 'Weiter' um das nächste Tutorial zu starten. Dieses behandelt die Schwerpunkte Resourcenproduktion und Überleben.~n~nDrücke 'Verlassen' um zum Hauptmenü zurückzukehren."; } 
 
 	]	
 }
