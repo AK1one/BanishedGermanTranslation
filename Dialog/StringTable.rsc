@@ -1322,12 +1322,12 @@ StringTable productionYears
 	Entry _strings
 	[
 		{ String _name = "Type0";			String _text = "1 Jahr"; }
-		{ String _name = "Type1";			String _text = "2 Jahr"; }
-		{ String _name = "Type2";			String _text = "5 Jahr"; }
-		{ String _name = "Type3";			String _text = "10 Jahr"; }
-		{ String _name = "Type6";			String _text = "25 Jahr"; }
-		{ String _name = "Type7";			String _text = "50 Jahr"; }
-		{ String _name = "Type8";			String _text = "100 Jahr"; }
+		{ String _name = "Type1";			String _text = "2 Jahre"; }
+		{ String _name = "Type2";			String _text = "5 Jahre"; }
+		{ String _name = "Type3";			String _text = "10 Jahre"; }
+		{ String _name = "Type6";			String _text = "25 Jahre"; }
+		{ String _name = "Type7";			String _text = "50 Jahre"; }
+		{ String _name = "Type8";			String _text = "100 Jahre"; }
 	]
 }
 

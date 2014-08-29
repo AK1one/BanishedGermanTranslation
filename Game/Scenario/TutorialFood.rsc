@@ -7,18 +7,18 @@ StringTable tutorialStrings
 		{ String _name = "Step_Build_0_Pre";			String _text = "Bevor du Nahrungsmittel erzeugen kannst, musst du Gebäude errichten und Flächen für Nahrungsmittelproduktion erstellen.~n~nYou can start by placing a pasture for livestock. Select Food Production on the toolbar by pressing"; }
 		{ String _name = "Step_Build_1_Pre";			String _text = "Als nächstes wähles Du ein Weideland."; }
 		{ String _name = "Step_Build_2_Pre";			String _text = "Using the mouse, click in one corner of the highlighted area and then drag the mouse to the other corner.~n~nYou can change the placement of the building by pressing"; }
-		{ String _name = "Step_Build_3_Pre";			String _text = "Während das Weideland gebaut wird, kannst du andere Gebäude plazieren. Eine Jagdhütte kann dort plaziert werden wo ein Jäger Wildtier suchen soll. Jäger brauchen offene Felder oder Wälder in der Nähe, um effektiv jagen zu können.~n~nSelect Hunting Cabin from the menu by pressing"; }
+		{ String _name = "Step_Build_3_Pre";			String _text = "Während das Weideland gebaut wird, kannst du andere Gebäude platzieren. Eine Jagdhütte kann dort plaziert werden wo ein Jäger Wildtier suchen soll. Jäger brauchen offene Felder oder Wälder in der Nähe, um effektiv jagen zu können.~n~nSelect Hunting Cabin from the menu by pressing"; }
 		{ String _name = "Step_Build_4_Pre";			String _text = "Using the mouse, move the Hunting Cabin to the highlighted area and press the left mouse button.~n~nYou may need to rotate the building to get it into place. This can by done by pressing"; }
 		{ String _name = "Step_Build_5_Pre";			String _text = "Similar to hunters, gatherers search for and collect food that is growing in the forest.~n~nSelect the Gatherers Hut from the menu by pressing"; }
 		{ String _name = "Step_Build_6_Pre";			String _text = "Using the mouse, move the Gatherers Hut to the highlighted area and press the left mouse button."; }
-		{ String _name = "Step_Build_7_Pre";			String _text = "Farmers can work in a field and grow crops.~n~nTo place one, select Crop Field from the menu by pressing"; }
+		{ String _name = "Step_Build_7_Pre";			String _text = "Farmer können auf Feldern arbeiten und Nutzpflanzen anbauen.~n~nTo place one, select Crop Field from the menu by pressing"; }
 		{ String _name = "Step_Build_8_Pre";			String _text = "To place the Crop Field, use the mouse to click in one corner of the highlighted area and then drag the mouse to the other corner."; }
-		{ String _name = "Step_Build_9_Pre";			String _text = "Farmers can also work in an orchard that produces fruit and nuts.~n~n To place one, select Orchard from the menu by pressing"; }
+		{ String _name = "Step_Build_9_Pre";			String _text = "Farmer können auch in einem Obstgarten arbeiten, diese produzieren Früchte und Nüsse.~n~n To place one, select Orchard from the menu by pressing"; }
 		{ String _name = "Step_Build_10_Pre";			String _text = "Using the mouse, click in one corner of the highlighted area and then drag the mouse to the other corner."; }
 
-		{ String _name = "Step_Crop_Pre_Pre";			String _text = "Since the crop field isn't yet complete, use the time tools to speed up time. Once the field is complete, the tutorial will continue."; }
-		{ String _name = "Step_Crop_0_Pre";				String _text = "This crop field is currently disabled, as indicated by the following icon."; }
-		{ String _name = "Step_Crop_0_Post";			String _text = "Select the crop field by clicking on it."; }
+		{ String _name = "Step_Crop_Pre_Pre";			String _text = "Since the crop field isn't yet complete, use the time tools to speed up time. Sobald das Feld abgeschlossen ist, wird das Tutorial fortgesetzt."; }
+		{ String _name = "Step_Crop_0_Pre";				String _text = "Das Getreidefeld ist derzeit deaktiviert, wie das folgende Symbol anzeigt."; }
+		{ String _name = "Step_Crop_0_Post";			String _text = "Wählen Sie das Getreidefeld, indem du darauf klickst."; }
 		{ String _name = "Step_Crop_1_Pre";				String _text = "To enable growth of crops, first you'll have to select a type of seed to plant. You can acquire more seed types by trading with merchants at a trading post.~n~nSelect one of the crop types using the seed button and then selecting a seed from the drop down."; }
 		{ String _name = "Step_Crop_2_Pre";				String _text = "You'll also need to assign farmers to work in this crop field. Increase the number of workers to three."; }
 		{ String _name = "Step_Crop_3_Pre";				String _text = "In the Spring, workers will plant seeds in the field, and in the Autumn they'll harvest the crops.~n~nYou can direct them to harvest early by selecting Harvest."; }
