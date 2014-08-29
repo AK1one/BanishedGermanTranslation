@@ -2,7 +2,7 @@ StringTable tutorialStrings
 {
 	Entry _strings
 	[
-		{ String _name = "Step_Begin_0_Pre";			String _text = "As a town grows, additional specialized buildings can help make survival easier. In this tutorial you'll build work areas for Blacksmiths, Tailors, Herbalists, and Foresters."; }
+		{ String _name = "Step_Begin_0_Pre";			String _text = "Während eine Stadt wächst, können spezielle Gebäude As a town grows, additional specialized buildings can help make survival easier. In this tutorial you'll build work areas for Blacksmiths, Tailors, Herbalists, and Foresters."; }
 
 		{ String _name = "Step_Build_0_Pre";			String _text = "First, place a Blacksmith. A Blacksmith is used to make tools for the citizens to work with.~n~nStart by selecting Resource Production on the toolbar by pressing"; }
 		{ String _name = "Step_Build_1_Pre";			String _text = "Next select the Blacksmith by pressing"; }

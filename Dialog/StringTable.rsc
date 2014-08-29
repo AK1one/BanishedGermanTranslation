@@ -354,7 +354,7 @@ StringTable gameDialogs
 		{ String _name = "ProfessionGotoTip";   String _text = "Klicke um die Einwohner mit diesem Beruf auszuwählen und durchzuschalten."; }
 		{ String _name = "CitizenGotoTip";		String _text = "Fokussiert die Ansicht von diesem Einwohner."; }
 
-		{ String _name = "EnablePriestTip";		String _text = "Das Predigien in diser Kapelle ein- oder ausschalten."; }
+		{ String _name = "EnablePriestTip";		String _text = "Das Predigien in dieser Kapelle ein- oder ausschalten."; }
 
 		{ String _name = "ForesterCut";			String _text = "Fällen"; }
 		{ String _name = "ForesterPlant";		String _text = "Pflanzen"; }
@@ -429,7 +429,7 @@ StringTable gameDialogs
 		{ String _name = "OrchardCutTip";		String _text = "Fällt alle Obstbäume in dieser Obstplantage."; }
 		{ String _name = "OrchardCut";			String _text = "Fällen"; }
 
-		{ String _name = "PastureEmpty";		String _text = "Leer"; }
+		{ String _name = "PastureEmpty";		String _text = "Leeren"; }
 		{ String _name = "PastureSplit";		String _text = "Teilen"; }
 		{ String _name = "PastureEmptyTip";		String _text = "Entfernt alle Tiere von diesem Weideland. Es ist ein anderes Weideland nötig, um die Tiere erneut unterzubringen."; }
 		{ String _name = "PastureSplitTip";		String _text = "Teilt die Herde auf diesem Weideland. Es ist eine anderes Weideland nötig, um die andere Hälfte der Herde unterzubringen."; }
@@ -1206,9 +1206,9 @@ StringTable objects
 		{ String _name = "SchoolHouseLwr";		String _text = "Die Schule"; }
 		{ String _name = "SchoolHouseTip";		String _text = "Lehrt die Einwohner effektiver zu Arbeiten."; }	
 
-		{ String _name = "CropField";			String _text = "Getreidefeld"; }
-		{ String _name = "CropFieldLwr";		String _text = "Das Getreidefeld"; }
-		{ String _name = "CropFieldTip";		String _text = "Bestimmt ein Gebiet, in dem Farmer Getriede anbauen können."; }	
+		{ String _name = "CropField";			String _text = "Acker"; }
+		{ String _name = "CropFieldLwr";		String _text = "Der Acker"; }
+		{ String _name = "CropFieldTip";		String _text = "Bestimmt ein Gebiet, in dem Farmer Nutzpflanzen anbauen können."; }	
 
 		{ String _name = "Orchard";				String _text = "Obstplantage"; }
 		{ String _name = "OrchardLwr";			String _text = "Die Obstplantage"; }
@@ -1256,7 +1256,7 @@ StringTable objects
 		{ String _name = "ClearRoad";			String _text = "Wege löschen"; }
 		{ String _name = "ClearRoadTip";		String _text = "Entfernt Straßen und Wege in einem bestimmten Gebiet."; }	
 
-		{ String _name = "ClearMushroom";		String _text = "Kräuter ernten"; }
+		{ String _name = "ClearMushroom";		String _text = "Kräuter sammeln"; }
 		{ String _name = "ClearMushroomTip";	String _text = "Sammelt alle Kräuter in einem bestimmten Gebiet."; }	
 
 		{ String _name = "ClearWild";			String _text = "Wildtiere jagen"; }
@@ -1284,7 +1284,7 @@ StringTable objects
 		{ String _name = "ToolCaptureTip";		String _text = "Zeigt das Aufnahmetool."; }	
 
 		{ String _name = "ToolHelp";			String _text = "Hilfe"; }
-		{ String _name = "ToolHelpTip";			String _text = "Zeigt die Hilfe und die Refernzen zu den Materialien."; }	
+		{ String _name = "ToolHelpTip";			String _text = "Zeigt die Hilfe und die Referenzen zu den Materialien."; }	
 
 		{ String _name = "ToolNoise";			String _text = "Noise"; }
 		{ String _name = "ToolNoiseTip";		String _text = "Generate Perlin Noise."; }	
@@ -1365,7 +1365,7 @@ StringTable professions
 		}
 		{
 			String _name = "ProfessionFarmerTip";
-			String _text = "Farmer bewirten Getreiderfelder und Obstplantagen.";
+			String _text = "Farmer bewirten Acker und Obstplantagen.";
 		}
 		{
 			String _name = "ProfessionFarmeDeathr";
