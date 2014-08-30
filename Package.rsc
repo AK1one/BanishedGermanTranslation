@@ -1,8 +1,8 @@
 PackageFile translationGerman
 {
-	String _name = "Translation German";
-	String _author = "nOfILEnAMED";
-	String _description = "This mod changes the font from the default to Arial. It also modifies the default character set.";
+	String _name = "German Translation";
+	String _author = "nOfILEnAMED & AK1_one";
+	String _description = "This mod changes the font from the default to Arial. It also modifies the default character to the German one, and translate most of the Game and the tutorials into german.";
 	String _icon = "icon.png";
 	int _userVersion = 4;
 

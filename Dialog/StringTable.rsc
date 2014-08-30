@@ -233,21 +233,21 @@ StringTable events
 		{ String _name = "Event9";	String _text = "@0 @1: @2 ist nun erwachsen und arbeitet als @3.";	}
 		{ String _name = "Event10";	String _text = "@0 @1: @2 ist nun ein Student.";	}
 		{ String _name = "Event11";	String _text = "@0 @1: Ein Ausburch von @2 hat stattgefunden!";	}
-		{ String _name = "Event12";	String _text = "@0 @1: @2 hat eine Krankheit!";	}
+		{ String _name = "Event12";	String _text = "@0 @1: @2 wurde von Ungeziefer befallen!";	}
 		{ String _name = "Event13";	String _text = "@0 @1: Ein Kaufmann hat den Handelsposten erreicht.";	}
 		{ String _name = "Event14";	String _text = "@0 @1: Bettler haben die Stadthalle erreicht.";	}
 		{ String _name = "Event15";	String _text = "@0 @1: @2 wurde durch @4 als @3 ersetzt.";	}
-		{ String _name = "Event16";	String _text = "@0 @1: Es ist kein Hilfsarbeiter verfügbar um @2 zu ersetzen.";	}
+		{ String _name = "Event16";	String _text = "@0 @1: Es gibt keinen weiteren Hilfsarbeiter um @2 zu ersetzen.";	}
 
-		{ String _name = "Event17";	String _text = "@0 @1: Die Holzreserve ist niedrig!"; }
-		{ String _name = "Event18";	String _text = "@0 @1: Die Steinreserve ist niedrig!"; }
-		{ String _name = "Event19";	String _text = "@0 @1: Die Eisenreserve ist niedrig!"; }
-		{ String _name = "Event20";	String _text = "@0 @1: Die Feuerholzreserve ist niedrig!"; }
-		{ String _name = "Event21";	String _text = "@0 @1: Die Werkzeugreserve ist niedrig!"; }
-		{ String _name = "Event22";	String _text = "@0 @1: Die Nahrungsreserve ist niedrig!"; }
+		{ String _name = "Event17";	String _text = "@0 @1: Holzreserve zu niedrig!"; }
+		{ String _name = "Event18";	String _text = "@0 @1: Steinreserve zu niedrig!"; }
+		{ String _name = "Event19";	String _text = "@0 @1: Eisenreserve zu niedrig!"; }
+		{ String _name = "Event20";	String _text = "@0 @1: Feuerholzreserve zu niedrig!"; }
+		{ String _name = "Event21";	String _text = "@0 @1: Werkzeugreserve zu niedrig!"; }
+		{ String _name = "Event22";	String _text = "@0 @1: Nahrungsreserve zu niedrig!"; }
 
-		{ String _name = "Event23";	String _text = "@0 @1: Der Lagerplatz für produzierte Waren stößt an die Lagerkapazität!"; }
-		{ String _name = "Event24";	String _text = "@0 @1: Der Lagerplatz für Holz, Stein und Eisen stößt an die Lagerkapazität!"; }
+		{ String _name = "Event23";	String _text = "@0 @1: Ein Lagerhaus stößt an die Lagerkapazität!"; }
+		{ String _name = "Event24";	String _text = "@0 @1: Ein Lagerstätte stößt an die Lagerkapazität!"; }
 
 		{ String _name = "Event25";	String _text = "Du hast eine Auszeichnung erhalten! @2"; }
 		{ String _name = "Event26";	String _text = "Herzlichen Glückwunsch! Du hast das Szenario '@2' abgeschlossen."; }
@@ -382,37 +382,37 @@ StringTable gameDialogs
 		{ String _name = "PreviousProduced";	String _text = "Hergestellt (@0yrs)"; }
 
 		{ String _name = "Limit";				String _text = "Grenze"; }
-		{ String _name = "FuelLimit";			String _text = "Limit für Feuerholz"; }
+		{ String _name = "FuelLimit";			String _text = "Feuerholz"; }
 		{ String _name = "FuelLimitShort";		String _text = "Feuerholz"; }
 		{ String _name = "FuelLimitTip";		String _text = "Begrenzt die Menge der gelagerten Feuerholz. Sobald diese Grenze erreicht ist, wird die Produktion eingestellt."; }
-		{ String _name = "LogLimit";			String _text = "Limit für Holz"; }
+		{ String _name = "LogLimit";			String _text = "Holz"; }
 		{ String _name = "LogLimitShort";		String _text = "Holz"; }
 		{ String _name = "LogLimitTip";			String _text = "Begrenzt die Menge des gelagerten Holzes. Sobald diese Grenze erreicht ist, wird die Produktion eingestellt."; }
-		{ String _name = "HerbLimit";			String _text = "Limit für Kräuter"; }
+		{ String _name = "HerbLimit";			String _text = "Kräuter"; }
 		{ String _name = "HerbLimitShort";		String _text = "Kräuter"; }
 		{ String _name = "HerbLimitTip";		String _text = "Begrenzt die Menge der gelagerten Käuter. Sobald diese Grenze erreicht ist, wird die Produktion eingestellt."; }
-		{ String _name = "ToolLimit";			String _text = "Limit für Werkzeuge"; }
+		{ String _name = "ToolLimit";			String _text = "Werkzeuge"; }
 		{ String _name = "ToolLimitShort";		String _text = "Werkzeuge"; }
 		{ String _name = "ToolLimitTip";		String _text = "Begrenzt die Menge der gelagerten Werkzeuge. Sobald diese Grenze erreicht ist, wird die Produktion eingestellt."; }
-		{ String _name = "IronLimit";			String _text = "Limit für Eisen"; }
+		{ String _name = "IronLimit";			String _text = "Eisen"; }
 		{ String _name = "IronLimitShort";		String _text = "Eisen"; }
 		{ String _name = "IronLimitTip";		String _text = "Begrenzt die Menge des gelagerten Eisens. Sobald diese Grenze erreicht ist, wird die Produktion eingestellt."; }
-		{ String _name = "StoneLimit";			String _text = "Limit für Steine"; }
+		{ String _name = "StoneLimit";			String _text = "Stein"; }
 		{ String _name = "StoneLimitShort";		String _text = "Steine"; }
 		{ String _name = "StoneLimitTip";		String _text = "Begrenzt die Menge der gelagerten Steine. Sobald diese Grenze erreicht ist, wird die Produktion eingestellt."; }
-		{ String _name = "FoodLimit";			String _text = "Limit für Nahrung"; }
+		{ String _name = "FoodLimit";			String _text = "Nahrung"; }
 		{ String _name = "FoodLimitShort";		String _text = "Nahrung"; }
 		{ String _name = "FoodLimitTip";		String _text = "Begrenzt die Menge der gelagerten Nahrung. Sobald diese Grenze erreicht ist, wird die Produktion eingestellt."; }
-		{ String _name = "ClothesLimit";		String _text = "Limit für Kleidung"; }
+		{ String _name = "ClothesLimit";		String _text = "Kleidung"; }
 		{ String _name = "ClothesLimitShort";	String _text = "Kleidung"; }
 		{ String _name = "ClothesLimitTip";		String _text = "Begrenzt die Menge der gelagerten Kleidung. Sobald diese Grenze erreicht ist, wird die Produktion eingestellt."; }
-		{ String _name = "TextileLimit";		String _text = "Limit für Textilien"; }
+		{ String _name = "TextileLimit";		String _text = "Textilien"; }
 		{ String _name = "TextileLimitShort";	String _text = "Textilien"; }
 		{ String _name = "TextileLimitTip";		String _text = "Begrenzt die Menge der gelagerten Textilien. Sobald diese Grenze erreicht ist, wird die Produktion eingestellt."; }
-		{ String _name = "AlcoholLimit";		String _text = "Limit für Alkohol"; }
+		{ String _name = "AlcoholLimit";		String _text = "Alkohol"; }
 		{ String _name = "AlcoholLimitShort";	String _text = "Alkohol"; }
 		{ String _name = "AlcoholLimitTip";		String _text = "Begrenzt die Menge des gelagerten Alkohols. Sobald diese Grenze erreicht ist, wird die Produktion eingestellt."; }
-		{ String _name = "CoalLimit";			String _text = "Limit für Kohle"; }
+		{ String _name = "CoalLimit";			String _text = "Kohle"; }
 		{ String _name = "CoalLimitShort";		String _text = "Kohle"; }
 		{ String _name = "CoalLimitTip";		String _text = "Begrenzt die Menge der gelagerten Kohle. Sobald diese Grenze erreicht ist, wird die Produktion eingestellt."; }
 
@@ -500,7 +500,7 @@ StringTable gameDialogs
 		{ String _name = "CitizenEducated";		String _text = "Bildung"; }
 		{ String _name = "CitizenClothing";		String _text = "Kleidung"; }
 		{ String _name = "CitizenTool";			String _text = "Werkzeug"; }
-		{ String _name = "CitizenHappy";		String _text = "Heiterkeit"; }
+		{ String _name = "CitizenHappy";		String _text = "Zufriedenheit"; }
 
 		{ String _name = "GotoProfessionTip";	String _text = "Zentriert die Sicht auf den Arbeitsplatz des Einwohners."; }
 		{ String _name = "GotoHomeTip";			String _text = "Zentriert die Sicht auf das Haus des Einwohners."; }
@@ -530,7 +530,7 @@ StringTable gameDialogs
 		{ String _name = "Clothed";				String _text = "Bekleidet"; }
 		{ String _name = "Educated";			String _text = "Ausgebildet"; }
 		{ String _name = "Health";				String _text = "Gesundheit"; }
-		{ String _name = "Happiness";			String _text = "Heiterkeit"; }
+		{ String _name = "Happiness";			String _text = "Zufriedenheit"; }
 		{ String _name = "Families";			String _text = "Familien"; }
 
 		{ String _name = "Topic";				String _text = "Thema"; }
@@ -576,7 +576,7 @@ StringTable gameKeys
 		{ String _name = "Camera_Back";				String _text = "Nach hinten bewegen"; }
 		{ String _name = "Camera_Left";				String _text = "Nach links bewegen"; }
 		{ String _name = "Camera_Right";			String _text = "Nach rechts bewegen"; }
-		{ String _name = "Camera_ZoomIn";			String _text = "Hineinzoomen"; }
+		{ String _name = "Camera_ZoomIn";			String _text = "Heranzoomen"; }
 		{ String _name = "Camera_ZoomOut";			String _text = "Herauszoomen"; }
 		{ String _name = "Camera_PitchUp";			String _text = "Look Up"; }
 		{ String _name = "Camera_PitchDown";		String _text = "Look Down"; }
@@ -1470,11 +1470,11 @@ StringTable professions
 		}
 		{
 			String _name = "ProfessionBrewer";
-			String _text = "Brauer";
+			String _text = "Brauherr";
 		}
 		{
 			String _name = "ProfessionBrewerTip";
-			String _text = "Brauer betreiben ein Wirtshaus brauen Alkohol.";
+			String _text = "Brauherren betreiben ein Wirtshaus brauen Alkohol.";
 		}
 		{
 			String _name = "ProfessionBrewerDeath";
@@ -1727,7 +1727,7 @@ StringTable seasons
 	[
 		{ String _name = "Month0";			String _text = "Frühlingsanfang"; }				
 		{ String _name = "Month1";			String _text = "Frühling"; }				
-		{ String _name = "Month2";			String _text = "SpätFrühling"; }	
+		{ String _name = "Month2";			String _text = "Spätfrühling"; }	
 		{ String _name = "Month3";			String _text = "Frühsommer"; }				
 		{ String _name = "Month4";			String _text = "Sommer"; }				
 		{ String _name = "Month5";			String _text = "Spätsommer"; }	
