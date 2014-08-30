@@ -32,22 +32,22 @@ StringTable tutorialStrings
 		{ String _name = "Step_FirstPile_2_Pre";	String _text = "Benutze die Maus, klicke in eine Ecke des hervorgehobenen Gebietes und ziehe die Maus in eine andere Ecke und lass die Maustaste dann los."; } 
 		{ String _name = "Step_FirstPile_3_Pre";	String _text = "Die Stadtbewohner werden die abgetragenen Felsen und Bäume in die Lagerstätte bringen. Wenn erst einmal Materialien in der Lagerstätte vorhanden sind, werden die Menschen anfangen Steine und Baumstämme zur Baustelle tragen."; } 
 
-		{ String _name = "Step_Builders_0_Pre";		String _text = "Viele Stadtbewohner können Bäume fällen und Materialien von einem Ort zum anderen tragen, aber einige Arbeiten erfordern speziell ausgebildete Arbeiter.~n~nIm Fall einer Baustelle, musst du Bauarbeiter zuweisen. ~n~nWähle das Werkzeug durch drücken von "; } 
+		{ String _name = "Step_Builders_0_Pre";		String _text = "Viele Stadtbewohner können Bäume fällen und Materialien von einem Ort zum anderen tragen, aber einige Arbeiten erfordern speziell ausgebildete Arbeiter.~n~nIm Fall einer Baustelle, musst du Bauarbeiter zuweisen. ~n~nWähle das Werkzeug durch drücken von"; } 
 		{ String _name = "Step_Builders_1_Pre";		String _text = "Als nächstes wähle bitte 'Berufe' durch drücken von"; } 
 		{ String _name = "Step_Builders_2_Pre";		String _text = "Versuche zwei Bauarbeit zuzuweisen, durch drücken des Pfeils nach oben, oder durch das eintippen der gewünschten Zahl."; } 
 		
-		{ String _name = "Step_MoreHouses_0_Pre";	String _text = "Die Bauarbeiter können nun mit dem Hausbau anfangen.~n~nAber ein Haus ist nicht genug, du solltest noch drei weitere Häuser bauen um den übriegen Familien ein Zuhause zu bieten.~n~nWähle dazu noch einmal in der Toolbar das 'Hausmenü' durch drücken von "; } 
+		{ String _name = "Step_MoreHouses_0_Pre";	String _text = "Die Bauarbeiter können nun mit dem Hausbau anfangen.~n~nAber ein Haus ist nicht genug, du solltest noch drei weitere Häuser bauen um den übriegen Familien ein Zuhause zu bieten.~n~nWähle dazu noch einmal in der Toolbar das 'Hausmenü' durch drücken von"; } 
 		{ String _name = "Step_MoreHouses_1_Pre";	String _text = "Als nächstes wähle 'Holzhaus' aus, durch drücken von"; } 
-		{ String _name = "Step_MoreHouses_2_Pre";	String _text = "Benutze die Maus, und bewege das Haus auf das hervorgehobenen Gebiet und drücke die linke Maustaste. Eventuell musst du das Haus noch drehen um es in die richtige Richtung zu bauen. Dies kann geschehen durch drücken von"; } 
+		{ String _name = "Step_MoreHouses_2_Pre";	String _text = "Benutze die Maus, und bewege das Haus auf das hervorgehobenen Gebiet und drücke die linke Maustaste.~n~nEventuell musst du das Haus noch drehen um es in die richtige Richtung zu bauen. Dies kann geschehen durch drücken von"; } 
 		{ String _name = "Step_MoreHouses_2_Post";	String _text = "Drehe das Gebäude, bis die grüne Anzeige unter dem Haus des gelben ausgewählten Bereichs entspricht."; } 
 		{ String _name = "Step_MoreHouses_3_Pre";	String _text = "Großartig! Noch zwei Häuser. Zur Errinnerung, du kannst das Gebäuder drehen, durch drücken von"; } 
 		{ String _name = "Step_MoreHouses_3_Post";	String _text = "Drehe das Gebäude, bis die grüne Anzeige unter dem Haus des gelben ausgewählten Bereichs entspricht."; } 
 		{ String _name = "Step_MoreHouses_4_Pre";	String _text = "Platziere nun das letze Haus. Wenn du das Aussehen des Hauses vor dem Bau noch ändern möchtest, drücke dazu"; } 
 		{ String _name = "Step_MoreHouses_4_Post";	String _text = "Zur Errinnerung, du kannst das Gebäude in die richtige Richtung drehen."; } 
 
-		{ String _name = "Step_Speed_0_Pre";		String _text = "Ab und zu kann es eine Weile dauern, bis die Menschen alle zugewiesenen Arbeiten erledigt haben.~n~nWenn du es eilig hast, kann du die Spielgeschwindigkeit anpassen.~n~nDurch drücken auf"; } 
-		{ String _name = "Step_Speed_1_Pre";		String _text = "Drücke zweimal die Schnellvorlauftaste um die Spielgeschwindigkeit zu vervielfachen (5x)."; } 
-		{ String _name = "Step_Speed_2_Pre";		String _text = "Versuche die Spielgeschwindigkeit zu ändern.~nDu kannst das Spiel langsamer und schneller laufen lassen, anhalten oder fortsetzen.~n~nWenn alle Häuser gebaut sind, wird das Tutorial fortsetzen."; } 
+		{ String _name = "Step_Speed_0_Pre";		String _text = "Ab und zu kann es eine Weile dauern, bis die Menschen alle zugewiesenen Arbeiten erledigt haben.~n~nWenn du es eilig hast, kann du die Spielgeschwindigkeit anpassen.~n~nDurch drücken von"; } 
+		{ String _name = "Step_Speed_1_Pre";		String _text = "Drücke zweimal auf die Schnellvorlauftaste um die Spielgeschwindigkeit zu vervielfachen (5x)."; } 
+		{ String _name = "Step_Speed_2_Pre";		String _text = "Versuche die Spielgeschwindigkeit zu ändern.~nDu kannst das Spiel langsamer und schneller laufen lassen, anhalten oder fortsetzen.~n~nWenn alle Häuser gebaut sind, wird das Tutorial fortgesetzt."; } 
 
 		{ String _name = "Step_Intermission_0_Pre";	String _text = "Großartig! Du hast nun genug Häuser für alle Stadtbewohner gebaut. Das mag eine Menge Arbeit für ein paar Häuser gewesen sein, aber jetzt weißt du wie man etwas baut.~n~nUm ein Gebäude zu bauen, platziere eine Grundfläche. Die Einwohner werden anfangen das Gebiet zu säubern und genug Resourcen zu sammeln um ein Bauwerk zu bauen.~n~nSo lange es es ein paar Baumeister gibt, werden alle anderen den Rest erledigen."; } 
 		

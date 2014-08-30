@@ -423,20 +423,20 @@ StringTable gameDialogs
 
 		{ String _name = "SoilQuality";			String _text = "Boden"; }
 		
-		{ String _name = "OrchardHarvestTip";	String _text = "Erntet die Obstplantage sofort."; }
-		{ String _name = "OrchardAutoTip";		String _text = "Das automatische Ernten an diesem Ort ein- oder ausschalten."; }
+		{ String _name = "OrchardHarvestTip";	String _text = "Erntet die Erzeugnisse der Plantage sofort."; }
+		{ String _name = "OrchardAutoTip";		String _text = "Automatische Ernten an diesem Ort ein- oder ausschalten."; }
 		{ String _name = "OrchardSelectTip";	String _text = "Wählt den an diesem Ort zu pflanzenden Obstbaum aus."; }
-		{ String _name = "OrchardCutTip";		String _text = "Fällt alle Obstbäume in dieser Obstplantage."; }
+		{ String _name = "OrchardCutTip";		String _text = "Fällt alle Bäume in dieser Plantage."; }
 		{ String _name = "OrchardCut";			String _text = "Fällen"; }
 
 		{ String _name = "PastureEmpty";		String _text = "Leeren"; }
 		{ String _name = "PastureSplit";		String _text = "Teilen"; }
-		{ String _name = "PastureEmptyTip";		String _text = "Entfernt alle Tiere von diesem Weideland. Es ist ein anderes Weideland nötig, um die Tiere erneut unterzubringen."; }
-		{ String _name = "PastureSplitTip";		String _text = "Teilt die Herde auf diesem Weideland. Es ist eine anderes Weideland nötig, um die andere Hälfte der Herde unterzubringen."; }
-		{ String _name = "PastureSelectTip";	String _text = "Wählt ein Tier das auf diesem Weideland bleiben soll. Das kann nur getan werden wenn das Weideland leersteht."; }
+		{ String _name = "PastureEmptyTip";		String _text = "Entfernt alle Tiere von dieser Weide. Es ist ein andere Weide nötig, um die Tiere erneut unterzubringen."; }
+		{ String _name = "PastureSplitTip";		String _text = "Teilt die Herde auf dieser Weide. Es ist eine andere Weide nötig, um die andere Hälfte der Herde unterzubringen."; }
+		{ String _name = "PastureSelectTip";	String _text = "Wählt ein Tier das auf dieser Weide bleiben soll. Das kann nur getan werden wenn die Weide leersteht."; }
 
 		{ String _name = "HerdSize";			String _text = "Herdengröße"; }
-		{ String _name = "HerdSizeTip";			String _text = "Kontrolliert die Anzahl der Tiere die auf deisem Weideland verweilen sollen. Bei dieser Aktion werden alle anderen Tiere ins Schlachthaus gegeben."; }
+		{ String _name = "HerdSizeTip";			String _text = "Kontrolliert die Anzahl der Tiere die auf deiser Weide verweilen sollen. Bei dieser Aktion werden alle anderen Tiere ins Schlachthaus gegeben."; }
 
 		{ String _name = "Trade";				String _text = "Handeln"; }
 		{ String _name = "Dismiss";				String _text = "Entlassen"; }
@@ -543,8 +543,8 @@ StringTable gameDialogs
 		{ String _name = "BuildingStatusNoWorkersTip";	String _text = "Es sind keine Einwohner verfügbar um an diesem Gebäude zu arbeiten."; }
 		{ String _name = "BuildingStatusDestroyTip";	String _text = "Dieses Gebäude wird entfernt."; }
 
-		{ String _name = "ThisYear";			String _text = "Aktuelle Saison"; }
-		{ String _name = "PrevYear";			String _text = "Vorheriege Saison"; }
+		{ String _name = "ThisYear";			String _text = "Aktuelles Jahr"; }
+		{ String _name = "PrevYear";			String _text = "Vorherieges Jahr"; }
 
 		{ String _name = "EventNotifyDeathOldTip";		String _text = "Toggle popup notifications of death by old age."; }
 		{ String _name = "EventNotifyDeathTip";			String _text = "Toggle popup notifications of death."; }
@@ -1166,8 +1166,8 @@ StringTable objects
 		{ String _name = "HunterLodgeLwr";		String _text = "Die Jagdhütte"; }
 		{ String _name = "HunterLodgeTip";		String _text = "Jagt Wildtiere in eineme bestimmten Gebiet."; }	
 
-		{ String _name = "Herbalist";			String _text = "Kräutersammler"; }
-		{ String _name = "HerbalistLwr";		String _text = "Der Kräutersammler"; }
+		{ String _name = "Herbalist";			String _text = "Kräuterkundler"; }
+		{ String _name = "HerbalistLwr";		String _text = "Der Kräuterkundler"; }
 		{ String _name = "HerbalistTip";		String _text = "Sammelt Kräuter und heilt leichte Erkrankungen."; }	
 
 		{ String _name = "Doctor";				String _text = "Krankenhaus"; }
@@ -1218,9 +1218,9 @@ StringTable objects
 		{ String _name = "StorageYardLwr";		String _text = "Die Lagerstätte"; }
 		{ String _name = "StorageYardTip";		String _text = "Wird zum lagern von Rohmaterialien wie Holz, Feuerholz, Stein, Kohle und Eisen benutzt."; }	
 
-		{ String _name = "Pasture";				String _text = "Weideland"; }
-		{ String _name = "PastureLwr";			String _text = "Das Weideland"; }
-		{ String _name = "PastureTip";			String _text = "Bestimmt ein Gebiet, in dem das Vieh auf Weideländer gezüchtet werden kann."; }	
+		{ String _name = "Pasture";				String _text = "Weide"; }
+		{ String _name = "PastureLwr";			String _text = "Das Weide"; }
+		{ String _name = "PastureTip";			String _text = "Bestimmt ein Gebiet, in dem das Vieh auf Weiden gezüchtet werden kann."; }	
 
 		{ String _name = "DirtRoad";			String _text = "Landweg"; }
 		{ String _name = "DirtRoadLwr";			String _text = "Der Landweg"; }
@@ -1365,7 +1365,7 @@ StringTable professions
 		}
 		{
 			String _name = "ProfessionFarmerTip";
-			String _text = "Farmer bewirten Acker und Obstplantagen.";
+			String _text = "Farmer bewirten Acker und Plantagen.";
 		}
 		{
 			String _name = "ProfessionFarmeDeathr";
@@ -1377,7 +1377,7 @@ StringTable professions
 		}
 		{
 			String _name = "ProfessionHerdsmanTip";
-			String _text = "Hirten hüten Tiere auf Weideländern.";
+			String _text = "Hirten hüten Tiere auf den Weiden.";
 		}
 		{
 			String _name = "ProfessionHerdsmanDeath";
@@ -1457,11 +1457,11 @@ StringTable professions
 		}
 		{
 			String _name = "ProfessionHerbalist";
-			String _text = "Kräutersammler";
+			String _text = "Kräuterkundler";
 		}
 		{
 			String _name = "ProfessionHerbalistTip";
-			String _text = "Kräutersammler sammeln Kräuter und heilen leichte Erkrankungen.";
+			String _text = "Kräuterkundler sammeln Kräuter und heilen leichte Erkrankungen.";
 		}
 		{
 			String _name = "ProfessionHerbalistDeath";
@@ -1706,16 +1706,16 @@ StringTable scenario
 
 		{ String _name = "TutorialGettingStarted";		String _text = "Der Einstieg"; }
 		
-		{ String _name = "TutorialGettingStartedDesc";	String _text = "Lerne die Grundlagen des Spiels, einschließlich der Kamerabewegung, die Grundlage zum Bau von Gebäuden, die Berufszuweisung der Arbeiter,  und die Gründung einer neuen Stadt."; }
+		{ String _name = "TutorialGettingStartedDesc";	String _text = "Lerne die Grundlagen des Spiels, einschließlich der Kamerabewegung, die Grundlage zum Bau von Gebäuden, die Berufszuweisung der Arbeiter,  und die Gründung einer neuen Stadt kennen."; }
 		
 		{ String _name = "TutorialSurvival";			String _text = "Überleben"; }
-		{ String _name = "TutorialSurvivalDesc";		String _text = "Lerne die Grundlagen über die Produktionsgebäude, die Waren produzieren und dazu beitragen, die Überlebenschancen zu erhöhen, wie Schmiede, Schneider, und Forstwirte."; }
+		{ String _name = "TutorialSurvivalDesc";		String _text = "Lerne die Grundlagen über die Produktionsgebäude, die Waren produzieren und dazu beitragen, die Überlebenschancen zu erhöhen, wie Schmiede, Schneider, und Forstwirte kennen."; }
 		
 		{ String _name = "TutorialFood";				String _text = "Nahrungsproduktion"; }
-		{ String _name = "TutorialFoodDesc";			String _text = "Lerne die Grundlagen über die Produktion von Nahrung aus Fischen, Wildtieren, Sammelerzeugnissen, Landwirtschaftliche Pflanzen, Obstplantagen, und die Viehzucht."; }
+		{ String _name = "TutorialFoodDesc";			String _text = "Lerne die Grundlagen über die Produktion von Nahrung aus Fischen, Wildtieren, Sammelerzeugnissen, Äcker, Plantagen, und die Viehzucht kennen."; }
 
 		{ String _name = "TutorialTrade";				String _text = "Handeln"; }
-		{ String _name = "TutorialTradeDesc";			String _text = "Lerne die Grundlagen über den Handel, um eigene Erzeugnisse, gegen neue Saatgut, Obstbäume, Vieh, Nahrungsmittel, Werkzeuge und andere Ressourcen zu handeln."; }
+		{ String _name = "TutorialTradeDesc";			String _text = "Lerne die Grundlagen über den Handel kennen, um eigene Erzeugnisse, gegen neue Saatgut, Obstbäume, Vieh, Nahrungsmittel, Werkzeuge und andere Ressourcen zu handeln."; }
 
 	]
 }
@@ -1765,18 +1765,18 @@ StringTable startConditions
 	Entry _strings
 	[
 		{ String _name = "HardName";			String _text = "Schwer"; }
-		{ String _name = "HardDesc";			String _text = "Ein hartest Spiel, zu Beginn mit vier Familien. Nur wenig Kleidung, Nahrung, Feuerholz 
-																und Werkzeuge werden sind vorhanden. Keine Saat zum anpflanzen  seeds for farming are available."; }
+		{ String _name = "HardDesc";			String _text = "Spiel mit harten Bedingunen, mit vier Familien. Waren wie Kleidung, Nahrung, Feuerholz 
+																und Werkzeuge sind kaum vorhanden. Keine Saat zum anpflanzen."; }
 
 		{ String _name = "MediumName";			String _text = "Mittel"; }
-		{ String _name = "MediumDesc";			String _text = "Ein mittleres Spiel, zu Beginn mit fünf Familien. Kleidung, Nahrung, Feuerholz, Werkzeuge 
-																und Baumaterialien sind vorhanden. Eine Lagerstätte ist bereits vorhanden.
-																Einiges Saatgut für Felder und Obstplantage sind vorhanden."; }
+		{ String _name = "MediumDesc";			String _text = "Spiel mit mittleres Bedingunen, mit fünf Familien. Waren wie Kleidung, Nahrung, Feuerholz, 
+																Werkzeuge und Baumaterialien sind vorhanden. Eine Lagerstätte ist bereits erbaut worden.
+																Einiges Saatgut für Äcker und Plantagen ist vorhanden."; }
 
 		{ String _name = "EasyName";			String _text = "Einfach"; }
-		{ String _name = "EasyDesc";			String _text = "Ein einfaches Spiel, zu Beginn mit sechs Familien. Es ist viel Kleidung, Nahrung, Feuerholz, 
-																Baumaterialien, und Werkzeuge sind vorhanden. Häuser und Lager sind bereits erbaut worden.
-																Saatgut für Felder und Obstplantage sind vorhanden, ebenso auch eine Viehherde."; }
+		{ String _name = "EasyDesc";			String _text = "Spiel mit einfaches Bedingunen, mit sechs Familien. Waren wie Kleidung, Nahrung, Feuerholz, 
+																Baumaterialien, und Werkzeuge sind reichlich vorhanden. Häuser und Lager sind vorhanden.
+																Saatgüter für Äcker und Plantagen sind vorhanden, ebenso auch eine Viehherde."; }
 	]
 }
 
