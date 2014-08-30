@@ -4,7 +4,7 @@ Font resource
 	String _fontName = "Arial";
 	int _fontHeight = 24;
 	String _sheetName = "Build/FontSheet.rsc";
-	int _sheetWidth = 256;
+	int _sheetWidth = 164;
 	int _sheetHeight = 128;
 	String _materialName = "Font/FontMaterial.rsc";
 	String _imageName = "Build/uiFontImage.png";

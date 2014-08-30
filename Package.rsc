@@ -1,10 +1,10 @@
 PackageFile translationGerman
 {
 	String _name = "Translation German";
-	String _author = "Shining Rock Software, LLC & nofilenamed";
+	String _author = "nOfILEnAMED";
 	String _description = "This mod changes the font from the default to Arial. It also modifies the default character set.";
 	String _icon = "icon.png";
-	int _userVersion = 1;
+	int _userVersion = 4;
 
 	// all files in resource directory
 	String _includeList
@@ -29,14 +29,6 @@ ExternalList list
 		"Font/FontMedium.rsc"
 		"Font/FontSmall.rsc"
 		"Font/FontLarge.rsc"
-
-		"Game/Scenario/TutorialCommon.rsc:tutorialGeneral"
-		"Game/Scenario/TutorialFood.rsc:tutorialStrings"
-		"Game/Scenario/TutorialGettingStarted.rsc:tutorialStrings"
-		"Game/Scenario/TutorialSurvival.rsc:tutorialStrings"
-		"Game/Scenario/TutorialTrade.rsc:tutorialStrings"
-
-		"Game/Help/HelpTopics.rsc"
 
 		"Dialog/StringTable.rsc:achievement"
 		"Dialog/StringTable.rsc:autoSave"
@@ -78,6 +70,20 @@ ExternalList list
 		"Dialog/StringTable.rsc:textureFilter"
 		"Dialog/StringTable.rsc:toolBar"
 		"Dialog/StringTable.rsc:toolType"
+		
+		"UI/WhiteChickenStringTable.rsc:resource"
+		"UI/ApiaryStringTable.rsc:resource"
+		"UI/CropStringTable.rsc:resource"
+		"UI/FigStringTable.rsc:resource"
+		
+		"Game/Scenario/TutorialCommon.rsc:tutorialGeneral"
+		"Game/Scenario/TutorialFood.rsc:tutorialStrings"
+		"Game/Scenario/TutorialSurvival.rsc:tutorialStrings"
+		"Game/Scenario/TutorialGettingStarted.rsc:tutorialStrings"
+		"Game/Scenario/TutorialTrade.rsc:tutorialStrings"
+		"Game/Help/HelpTopics.rsc"
+		
+		"Dialog/ToolTip.rsc:textToolTip"
 	]
 }
 
