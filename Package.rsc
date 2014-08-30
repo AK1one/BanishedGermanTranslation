@@ -2,7 +2,7 @@ PackageFile translationGerman
 {
 	String _name = "Translation German";
 	String _author = "Shining Rock Software, LLC & nofilenamed";
-	String _description = "This mod changes the font from the default to Arial. It also modifies the default character set.";
+	String _description = "Diese Mod ändert die Schriftart von Default auf Arial und übersetzt alle texte ins Deutsche.";
 	String _icon = "icon.png";
 	int _userVersion = 1;
 
