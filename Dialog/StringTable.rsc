@@ -296,7 +296,7 @@ StringTable gameDialogs
 		{ String _name = "CountTotal";			String _text = "von"; }
 		{ String _name = "StudentCount";		String _text = "@0 Studenten"; }
 		{ String _name = "PatientCount";		String _text = "@0 Patienten"; }
-		{ String _name = "ChapelCount";			String _text = "@0 Mitglieder"; }
+		{ String _name = "ChapelCount";			String _text = "@0 Anhänger"; }
 		{ String _name = "Population";			String _text = "@0 / @1 / @2"; }
 		{ String _name = "GraveCount";			String _text = "@0 von @1 Gräber"; }
 
@@ -547,11 +547,11 @@ StringTable gameDialogs
 		{ String _name = "ThisYear";			String _text = "Aktuelles Jahr"; }
 		{ String _name = "PrevYear";			String _text = "Vorherieges Jahr"; }
 
-		{ String _name = "EventNotifyDeathOldTip";		String _text = "Toggle popup notifications of death by old age."; }
-		{ String _name = "EventNotifyDeathTip";			String _text = "Toggle popup notifications of death."; }
-		{ String _name = "EventNotifyDisasterTip";		String _text = "Toggle popup notifications of disasters."; }
-		{ String _name = "EventNotifyStorageTip";		String _text = "Toggle popup notifications of resource and storage values."; }
-		{ String _name = "EventNotifyTownTip";			String _text = "Toggle popup notifications of town events."; }
+		{ String _name = "EventNotifyDeathOldTip";		String _text = "Schaltet die Popupbenachrichtigung für Todesfälle durch zu hohes Alter ein."; }
+		{ String _name = "EventNotifyDeathTip";			String _text = "Schaltet die Popupbenachrichtigung für Todesfälle ein."; }
+		{ String _name = "EventNotifyDisasterTip";		String _text = "Schaltet die Popupbenachrichtigung für Katastrophen ein."; }
+		{ String _name = "EventNotifyStorageTip";		String _text = "Schaltet die Popupbenachrichtigung für zu wenig Ressourcen und Lagerplatz ein."; }
+		{ String _name = "EventNotifyTownTip";			String _text = "Schaltet die Popupbenachrichtigung für Stadtereignisse ein."; }
 	]
 }
 
@@ -639,7 +639,7 @@ StringTable globalNames
 	[ 
 		{
 			String _name = "Autosave";
-			String _text = "Automatisch gespeichert";
+			String _text = "Automatischer Speicherpunkt";
 		}
 		{
 			String _name = "Corrupt";
@@ -984,11 +984,11 @@ StringTable mainMenu
 																Items ^c1highlighted in orange^c0 are files are conflicting with another mod, but the files from this mod will be loaded. 
 																Items ^c2highlighted in bright yellow^c0 are conflicting with another mod, but won't be loaded."; }
 
-		{ String _name = "ModDetailsTip";		String _text = "Show details of the mod, including files and any conflicts."; 		}
-		{ String _name = "ModTopTip";			String _text = "Move the mod to the top of the list so that it will be loaded first."; 		}
-		{ String _name = "ModUpTip";			String _text = "Move the mod up in the list."; 		}
-		{ String _name = "ModDownTip";			String _text = "Move the mod down in the list."; 		}
-		{ String _name = "ModLoadedTip";		String _text = "Enable or disable the mod."; 		}
+		{ String _name = "ModDetailsTip";		String _text = "Zeigt alle Details über einen Mod, inklusive der Dateien und den Konflikten."; 		}
+		{ String _name = "ModTopTip";			String _text = "Setzt den Mod an erster Stelle, somit wird dieser zuerst geladen."; 		}
+		{ String _name = "ModUpTip";			String _text = "Verschiebt einen Mod in der Liste weiter nach oben."; 		}
+		{ String _name = "ModDownTip";			String _text = "Verschiebt einen Mod in der Liste weiter nach unten."; 		}
+		{ String _name = "ModLoadedTip";		String _text = "Aktiviert oder Deaktiviert einen Mod."; 		}
 		
 		{ String _name = "ModCreatedBy";		String _text = "Erstellt durch: @0"; }
 		{ String _name = "ModPath";				String _text = "Pfad: @0"; }
@@ -998,7 +998,7 @@ StringTable mainMenu
 		{ String _name = "ModDifferentVersion";	String _text = "The following mod has had a version change.~n~n@0 [@1]~nnSaved with version @2~n~nWhile the author may have just simply updated the mod with bug fixes or new features, loading this save game may still have unexpected results or crashes. Do you still want to load the save game?"; }
 		{ String _name = "ModChanged";			String _text = "The following mod is different from when the game was saved.~n~n@0 [@1]~nSaved with version @2~n~nIt's possible the author updated the mod without changing the version number. Or, a mod with the same name on disk has overwritten the mod. Loading this save game may have unexpected results or crashes. Do you still want to load the save game?"; }
 
-		{ String _name = "ReloadMenu";			String _text = "Änderungen  to the loaded mods require the menu to be reloaded.~n~nDo you want to apply changes and reload now?"; }
+		{ String _name = "ReloadMenu";			String _text = "Änderungen in der Modliste, benötigen ein Neuladen des Hauptmenüs.~n~nDie Änderungen speichern und Neuladen fortsetzen?"; }
 		{ String _name = "ReloadGame";			String _text = "Changes to the loaded mods require the game to be reloaded.~n~nReloading with different mods in a game already in progress may have undesirable effects such as unexpected behavior or crashes.~n~nDo you want to apply changes and reload now?"; }
 		{ String _name = "ModConflict";			String _text = "This mod contains resources that conflict with another mod that is loaded (highlighted red). This can cause unexpected behavior.~n~nThe resources from the mod highest in the list will be loaded."; }
 
