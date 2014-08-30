@@ -2,8 +2,8 @@ StringTable resource
 {
 	Entry _strings
 	[ 
-		{ String _name = "Topic"; String _text = "Blacksmith"; }
-		{ String _name = "Title"; String _text = "Blacksmiths"; }
+		{ String _name = "Topic"; String _text = "Schmied"; }
+		{ String _name = "Title"; String _text = "Schmiede"; }
 		{ String _name = "Text";			
 		  String _text = "
 		^vc ^mb ^mc ^jr ^i3TitleBlacksmith
@@ -11,20 +11,19 @@ StringTable resource
 		^i0Log x32 ^i0Stone x55 ^i0Iron x32 ^me
 
 		^f1 ^c0 ^jl ^vb
-		^s A ^i0ProfessionToolMaker ^abProfession Blacksmith ^ae can make new tools. ^abCitizen Citizens^ae need tools to do any work other
+		^s A ^i0ProfessionToolMaker ^abProfession Blacksmith ^ae kann neue Werkzeuge herstellen. ^abCitizen Citizens^ae need tools to do any work other
 		than carrying goods from place to place. 
 		^p
-		If a citizen doesn't have a tool, they will work much slower and resource production will be severely limited.
-		The more work that is done with a tool, the faster it will wear out and need replacing. 
+		Wenn ein Einwohner kein Werkzeug besitzt, arbeitet er sehr langsam und der Ressourcenabbau ist stark eingeschränkt.
+		Je mehr mit einem Werkzeug verrichtet wird, umso schneller muss es getauscht werden. 
 		^p
-		When the blacksmith is low on the materials needed to make tools, he or she will travel to the nearest ^abStockPile stock pile^ae that
-		has them and bring them back to the building. The blacksmith will then craft tools.
+		Wenn dem Schmied die Ressourcen ausgehen, besorgt er oder sie sich im nächstgelegendem Lager neue Materialien, geht zurück und schmiedet neue Werkzeuge.
 		^p
-		After the tools have been made, the blacksmith or a general laborer will pick up the tools and store them in the nearest ^abStorageBarn storage barn.^ae
+		Nach der Herstellung der Werkzeuge schafft der Schmied oder ein Hilfsarbeiter die Werkzeuge in den nächstgelegnden ^abStorageBarn Speicher.^ae
 		^p
 		^mb ^mc ^dDialogBlacksmith 
 		^ml304 ^mc
-		Clicking on a blacksmiths building will show the current inventory and other details.
+		Klicke auf die Schmiede um den aktuellen Lagerbestand und andere Details zu sehen.
 		^p
 		The Tool Limit control sets the tool ^abLimit resource limit.^ae Once the limit is reached, no more tools will be produced.
 		^ml0 ^me
